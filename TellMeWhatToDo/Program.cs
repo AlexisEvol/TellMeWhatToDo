@@ -1,10 +1,13 @@
-﻿namespace TellMeWhatToDo
+﻿using TellMeWhatToDo.Screens;
+
+namespace TellMeWhatToDo
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Menu menu = new Menu();
+            menu.MainScreen();
         }
     }
 }
